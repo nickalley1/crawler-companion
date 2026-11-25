@@ -187,4 +187,4 @@ document.addEventListener('click',e=>{for(const w of document.querySelectorAll('
 
 function fitCrawler(){const h=document.getElementById('crawler-name');if(!h)return;h.style.fontSize='';let size=parseFloat(getComputedStyle(h).fontSize);while(h.scrollWidth>h.clientWidth&&size>1){h.style.fontSize=(--size)+'px';}}
 window.addEventListener('resize',fitCrawler);if(document.fonts)document.fonts.ready.then(fitCrawler);let swipe=null;document.addEventListener('touchstart',e=>{swipe=e.target.closest('#crawler-profile')?[e.touches[0].clientX,e.touches[0].clientY]:null},{passive:true});document.addEventListener('touchend',e=>{if(!swipe)return;let dx=e.changedTouches[0].clientX-swipe[0],dy=e.changedTouches[0].clientY-swipe[1];swipe=null;if(active().mode==='coop'&&Math.abs(dx)>65&&Math.abs(dx)>Math.abs(dy)*1.5){playerIndex=1-playerIndex;render();}},{passive:true});save();render();
-</script></body></html>
+</script><!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "933641e1b1c74f07a57c95e47d29d207"}'></script><!-- End Cloudflare Web Analytics --></body></html>
