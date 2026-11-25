@@ -1,0 +1,1 @@
+{"name": "Crawler Companion", "short_name": "Crawler Companion", "start_url": "./", "scope": "./", "display": "standalone", "background_color": "#781715", "theme_color": "#781715", "icons": [{"src": "crawler-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"}, {"src": "crawler-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}]}
